@@ -151,7 +151,7 @@ section p{
     justify-content: center;
     margin-top: 5rem;
     width: 700px;
-    margin-left: 20rem;
+    margin-left: 30rem;
     box-shadow: 1px 1px 1px 1px hsl(208, 11%, 55%);
     text-align: center;
     padding: 3rem;
@@ -283,6 +283,11 @@ small{
   /* ======================== End Footer Area ================ */
   
   /* ======================== Start Media Querry Area ================ */
+  @media screen and (max-width:1375px) {
+    #fourth{
+        margin-left: 20rem;
+    }
+  }
   @media screen and (max-width:375px) {
         body{
             min-width: 375px;
